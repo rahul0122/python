@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="card" style="width: 18rem;background-color:green;">
+  <div class="card-header">
+    Task Update
+  </div>
+  <ul class="list-group list-group-flush" >
+    <li class="list-group-item" style="background-color:pink;">
+            <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">update</button>
+            </form>
+    </li>
+
+  </ul>
+</div>
+
+
+
+<!--            <form method="post">-->
+<!--            {% csrf_token %}-->
+<!--            {{ form.as_p }}-->
+<!--            <button type="submit">update</button>-->
+<!--            </form>-->
+
+{% endblock %}

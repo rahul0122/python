@@ -1,0 +1,13 @@
+.banner{
+height:150px;
+text-align: center;
+border: 3px solid green;
+background-color:#5097ab;
+margin-bottom:50px;
+}
+
+.banner-text{
+padding:50px;
+text-align: center;
+
+}
