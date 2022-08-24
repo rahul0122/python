@@ -1,0 +1,104 @@
+/***body***/
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    }
+/***navbar***/
+.nav-item{
+        letter-spacing: 2px;
+        text-transform : uppercase;
+        font-size : 16px;
+        }
+.nav-item dropdown{
+        letter-spacing: 2px;
+        text-transform : uppercase;
+        font-size : 14px;
+        }
+/***footer***/
+.my_footer p{
+            padding-top:20px;
+            font-size:16px;
+            }
+.my_footer{
+            background-color:grey;
+            height:40px;
+            }
+            /***category***/
+.my_row_class{
+            padding-top:15px;
+
+}
+.my_row_class .mx-auto{
+            color:black;
+            font-size:16px;
+}
+
+.my_image{
+    width:100%;
+    height:500px;
+}
+.my_title{
+font-size:16px;
+text-transform:uppercase;
+letter-spacing:.2em;
+}
+
+.my_image_padding{
+padding:10px;
+}
+.my_bottom_margin{
+margin-bottom:10px;
+}
+.card-body h4{
+text-transform:uppercase;
+letter-spacing:.2em;
+font-spacing:14px;
+}
+/***product page***/
+.my_prod_row_class{
+padding-top:15px;
+padding-bottom:20px;
+}
+.my_prod_row_class .mx-auto{
+color:black;
+font-size:20px;
+font-decoration:none;
+}
+.my_prod_title{
+font-size:20px;
+padding-top:20px;
+padding-bottom:20px;
+letter-spacing:.2em;
+text-transform:uppercase;
+}
+
+.my_prod_text{
+padding-right:20px;
+}
+.my_search_text{
+padding-top:20px;
+}
+/***cart***/
+.my_custom_table{
+min-width:400px;
+font-size : 14px;
+}
+.my_custom_thead{
+font-weight:normal;
+text-transform : uppercase;
+background-color: #42f5bf;
+letter-spacing:.2em;
+}
+
+.custom_a{
+text-decoration:none;
+}
+
+.custom_icon{
+text-decoration:none;
+color:green;
+}
+
+.my_custom_button{
+margin-top:15px;
+
+}
